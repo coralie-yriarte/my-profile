@@ -1,0 +1,125 @@
+body {
+	background:white;
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	color: rgb(76, 43, 98);
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+h1{
+	color: #934b00;
+	font-family: Bebas Neue;
+	font-size: 80px;
+	text-align: center;
+}
+
+h2{
+	color: #7293A0;
+	text-align: center;
+	font-family: Bebas Neue;
+
+}
+
+p{
+	color: #1F2421;
+	text-align: center;
+	font-weight: lighter;
+	font-family: Barlow Condensed;
+
+}
+
+ul{
+	text-align:center;
+}
+
+a{
+	color: #AFA060;
+  	text-decoration: all;
+}
+
+div{
+	padding: 20px;
+	margin: 30px;
+}
+
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.img-bordered{
+  border: 3px solid black;
+}
+
+.container {
+  width: 1000px; 
+  margin: 10px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white{
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.card-white i{
+ font-size: 30px;
+}
+
+.btn-brown{
+  background: #934b00;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.btn-brown:hover{
+  background: #7293A0 ;
+  color: white;
+}
+
+.list-inline{
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li{
+display: inline;
+padding: 10px;
+}
+
+.list-inline i{
+font-size: 50px;
+color:#934b00;
+}
+
+.list-inline i:hover{
+color:#7293A0;
+}
+
+#introduction p{
+margin-bottom: 40px;
+}
+
+
